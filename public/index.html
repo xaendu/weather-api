@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather API</title>
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Weather API</h1>
+    <a href="index.html">check in</a>|
+    <a href="query.html">view checkins</a>
+    <div id="info-field">
+      <p>latitude: <span id="latitude"></span>&deg;<br /></p>
+      <p>longitude: <span id="longitude"></span>&deg;</p>
+      <p>
+        The weather here is <span id="summary"></span> with a temperature of
+        <span id="temperature"></span>º. The concentration of particulate matter
+        (<span id="airparameter"></span>) is <span id="airvalue"></span
+        ><span id="airunit"></span> updated on <span id="airtime"></span>.
+      </p>
+      <p id="message"></p>
+    </div>
+    <script src="checkin-app.js"></script>
+  </body>
+</html>

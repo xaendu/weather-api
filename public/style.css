@@ -1,0 +1,18 @@
+#mapid {
+  position: relative;
+  top: 0rem;
+  height: 300px;
+  width: 100%;
+  border: 1px solid black;
+}
+
+html,
+body,
+#mapid {
+  padding: 0;
+  margin: 0;
+}
+
+#info-field p {
+  background: "#ff6699";
+}
